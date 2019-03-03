@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
     }
 
+    /**
+     * Closes the menu when its open otherwise it uses the back pressed of the parent file
+     */
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -46,6 +49,11 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    /**
+     * Fetches what menu id is being pressed and executes the clicked item
+     * @param item
+     * @return
+     */
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();

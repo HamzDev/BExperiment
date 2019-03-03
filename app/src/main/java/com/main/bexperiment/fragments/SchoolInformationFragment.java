@@ -12,6 +12,13 @@ import com.main.bexperiment.R;
 
 public class SchoolInformationFragment extends Fragment {
 
+    /**
+     * Displays the given view on class call
+     * @param inflater
+     * @param container
+     * @param savedInstanceState
+     * @return
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
