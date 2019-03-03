@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 
 import com.main.bexperiment.R;
 
-public class SomethingFragment extends Fragment {
+public class OpleidingenFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_something, container, false);
+        return inflater.inflate(R.layout.opleidingen_fragment, container, false);
     }
 }
