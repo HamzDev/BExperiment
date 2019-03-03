@@ -10,6 +10,10 @@ import android.view.ViewGroup;
 
 import com.main.bexperiment.R;
 
+/**
+ * @author Hamza Fethi
+ * @version 0.1
+ */
 public class SchoolInformationFragment extends Fragment {
 
     /**

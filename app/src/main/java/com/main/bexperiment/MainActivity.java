@@ -14,6 +14,10 @@ import com.main.bexperiment.fragments.OpleidingenFragment;
 import com.main.bexperiment.fragments.SchoolInformationFragment;
 import com.main.bexperiment.fragments.ShareFragment;
 
+/**
+ * @author Hamza Fethi
+ * @version 0.1
+ */
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
