@@ -3,13 +3,17 @@ package com.main.bexperiment.contact;
 import android.content.Intent;
 import android.view.View;
 
-public class MailExecuter {
+public class MailExecutor {
 
     private View view;
     private MailInstance mailInstance;
 
-
-    public MailExecuter(View view, MailInstance mailInstance) {
+    /**
+     * Constructor mail executor
+     * @param view Current view instance
+     * @param mailInstance Mail Credentials
+     */
+    public MailExecutor(View view, MailInstance mailInstance) {
         this.mailInstance = mailInstance;
         this.view = view;
     }
