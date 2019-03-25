@@ -18,8 +18,7 @@ import com.main.bexperiment.fragments.ShareFragment;
  * @author Hamza Fethi
  * @version 0.1
  */
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

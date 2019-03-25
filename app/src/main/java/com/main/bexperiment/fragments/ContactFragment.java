@@ -1,6 +1,5 @@
 package com.main.bexperiment.fragments;
 
-import android.net.http.SslCertificate;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

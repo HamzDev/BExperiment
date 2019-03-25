@@ -1,15 +1,11 @@
 package com.main.bexperiment.opleidingen;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.widget.TextView;
 
 import com.main.bexperiment.R;
-import com.main.bexperiment.opleidingen.OpleidingenData;
-
-import org.w3c.dom.Text;
 
 public class Pop extends Activity {
 
