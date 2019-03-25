@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.main.bexperiment.R;
-import com.main.bexperiment.contact.MailExecuter;
+import com.main.bexperiment.contact.MailExecutor;
 import com.main.bexperiment.contact.MailInstance;
 
 /**
@@ -44,7 +44,7 @@ public class ContactFragment extends Fragment {
             public void onClick(View v) {
                 if(getRestrictions()) {
                     MailInstance mailInstance = new MailInstance(subject.getText().toString(), message.getText().toString());
-                    new MailExecuter(v, mailInstance).send();
+                    new MailExecutor(v, mailInstance).send();
                 }
             }
         });
@@ -56,7 +56,8 @@ public class ContactFragment extends Fragment {
      * @return
      */
     private boolean getRestrictions() {
-        if(!email.getText().toString().contains("@") || email.getText().toString().isEmpty()) {
+        if(!email.getText().toString().contains("@") ||
+                email.getText().toString().isEmpty()) {
             System.out.println("Something went wrong with the email input!");
             return false;
         } else if (subject.getText().toString().isEmpty()) {
